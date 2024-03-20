@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(){
-  float valor_da_hora_de_trabalho = 150.0f;
-  float total_de_horas_trabalhadas = 100.0f;
+  float valor_da_hora_de_trabalho = 50.0f;
+  float total_de_horas_trabalhadas = 150.0f;
 
   const float IR = 0.25f;
   const float INSS = 0.11f;
@@ -17,7 +17,7 @@ int main(){
   printf("-----------------------------------\n");
   printf("Salario Bruto...: \x1b[32m%11.2f\x1b[0m\n", valor_salario_bruto);
   printf("Imposto Renda...: \x1b[31m%11.2f\x1b[0m\n", valor_imposto_renda);
-  printf("Imposto Previdencia...: \x1b[31m%11.2f\x1b[0m\n", valor_imposto_previdencia);
+  printf("Imposto Previ...: \x1b[31m%11.2f\x1b[0m\n", valor_imposto_previdencia);
   printf("Salario Liquido...: \x1b[32m%11.2f\x1b[0m\n", valor_salario_liquido);
   
   return 0;
